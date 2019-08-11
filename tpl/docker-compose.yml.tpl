@@ -22,8 +22,6 @@ services:
     restart: always
     networks:
       - srv
-    ports:
-      - "8081:80"
     volumes:
       - /opt/wiki/data/:/dokuwiki/data
       - /opt/wiki/conf/:/dokuwiki/conf
